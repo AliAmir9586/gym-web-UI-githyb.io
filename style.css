@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 147px;
+}
+.container{
+    max-width: 80vw;
+    }
+    .navbar{
+        display: flex;
+        height: 67px;
+        font-family: 'Ubuntu' , sans-sarif;
+    }
+    .navbar li{
+        list-style: none;
+        margin: 0px 12px;
+        font-family: 'Ubuntu' , sans-sarif;
+    }
+    .navbar li a{
+       text-decoration: none;
+    }
+    .section1{
+        height: 83vh;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+    .topleft{
+        width: 50%;
+
+    }
+    .topright{
+        width: 50%;
+       
+    } 
+.logo{
+    font-size: 1.7rem;
+}
+.dumbelimg{
+    
+    width: 104px;
+    height: 101px;
+    padding: 2px;
+}
+.topright .gymimg{
+    width: 466px;
+    margin-top: 10px; 
+    padding-top:5px ;
+    padding-bottom: 10px;   
+}
+p{
+    font-size: 20px;
+}
+.section1 h1{
+    font-size: 1.8rem;
+    color: orangered;
+
+}
+.section2 h1{
+    font-size: 2rem;
+    color: orangered;
+}
+.section2 {
+    padding: 53px;
+   
+}
+.section2 p{
+text-align: center;
+padding: 0px 6vw;
+
+}
+.box{
+margin: 15px 22px;
+min-width: 20vw;
+border: 2px solid rgb(243, 118, 72);
+text-align: center;
+padding: 8px 0px;
+border-radius: 8px;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 3px 0px;
+    padding: 2px 0px;
+    
+}
+
+.box h2{
+    font-size: 1.6rem;
+}
+.box h2{
+    padding: 10px 0px ;
+}
+.plantable{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.section3 table{
+    width: 100vw;
+    margin: 30px 0px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.section3 table th{
+   width: 23vw;
+   font-size: 15px;
+  border-bottom: 2px solid black;
+  padding: 9px;
+}
+.section3 table td{
+    border-bottom: 2px solid black;  
+}
+.section3 h1{
+    font-size: 2rem;
+    color: orangered;
+}
+.section3 {
+    padding: 53px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width:1100px) and (min-width:914px) {
+    .topright .gymimg{
+        width: 389px;
+        margin-top: 10px; 
+    padding-top:5px ;
+    padding-bottom: 10px;  
+    } 
+    header{
+        height: 180px;
+    }
+}
+@media (max-width:913px) and (min-width:752px) {
+    .topright .gymimg{
+        width: 300px;
+        
+    } 
+    .dumbelimg{
+    
+        width: 96px;
+        height: 100px;
+   
+    }
+    p{
+        font-size: 17px;
+    }
+    .section1 h1{
+        font-size: 1.5rem;
+    }
+    .section1{
+        height: 66vh;
+        overflow-y: hidden;
+        overflow-x: visible; 
+    }
+    header{
+        .flex{
+            flex-direction: column;
+        }
+}
+.navbar{
+    height: 106px;
+}
+header{
+    height: 225px;
+}
+}
+@media (max-width:752px) and (min-width:600px) {
+    .topright .gymimg{
+        width: 240px;
+        
+    } 
+    .dumbelimg{
+    
+        width: 92px;
+        height: 100px;
+   
+    }
+    p{
+        font-size: 14px;
+    }
+    .section1 h1{
+        font-size: 1.3rem;
+    }
+    .section1{
+        height: 66vh;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+    header{
+        .flex{
+            flex-direction: column;
+        }
+}
+header{
+    height: 215px;
+}
+.navbar{
+   height: 106px;
+ }
+
+ .section2 h1{
+    font-size: 1.6rem;
+}
+.section2 {
+    padding: 34px;
+}
+.section2 p{
+padding: 0px 3vw;
+}
+.box{
+margin: 15px 22px;
+min-width: 19vw;
+border: 2px solid rgb(243, 118, 72);
+text-align: center;
+padding: 7px 0px;
+border-radius: 6px;
+
+}
+.boxes{
+    flex-direction: column;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 2px 0px;
+    padding: 2px 0px;
+    
+}
+
+.box h2{
+    font-size: 1.2rem;
+}
+.box h2{
+    padding: 6px 0px ;
+}
+
+    .section3 table{
+        width: 90vw;
+       
+    }
+    .section3 h1{
+        font-size: 1.4rem;
+        
+    } 
+   
+}
+@media (max-width:600px) and (min-width:452px) {
+    .topright .gymimg{
+        width: 190px;
+        
+    } 
+    .dumbelimg{
+    
+        width: 80px;
+        height: 90px;
+   
+    }
+    p{
+        font-size: 12px;
+    }
+    .section1 h1{
+        font-size: 1.2rem;
+    }
+    .section1{
+        height: 66vh;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+    header{
+        .flex{
+            flex-direction: column;
+        }
+}
+header{
+    height: 186px;
+}
+.navbar{
+   height: 106px;
+ }
+
+ .section2 h1{
+    font-size: 1.3rem;
+}
+.section2 {
+    padding: 34px;
+}
+.section2 p{
+padding: 0px 3vw;
+}
+.boxes{
+    flex-direction: column;
+}
+.section3 h1{
+    font-size: 1.5rem;
+} 
+}
+
+@media (max-width:452px) and (min-width:280px) {
+    .topright .gymimg{
+        width: 100px;
+        
+    } 
+    .dumbelimg{
+    
+        width: 60px;
+        height: 70px;
+   
+    }
+    p{
+        font-size: 8px;
+    }
+    .section1 h1{
+        font-size: 1rem;
+    }
+    .section1{
+        height: 40vh;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+    header{
+        .flex{
+            flex-direction: column;
+        }
+}
+.logo{
+    font-size: 1.4rem;
+}
+.navbar{
+   height: 106px;
+ }
+header{
+    height: 159px;
+}
+ .section2 h1{
+    font-size: 1rem;
+}
+.section2 {
+    padding: 34px;
+}
+.section2 p{
+padding: 0px 3vw;
+}
+.boxes{
+    flex-direction: column;
+}
+.section3 h1{
+    font-size: 1.2rem;
+} 
+
+.box ul li{
+    margin: 2px 0px;
+    padding: 2px 0px;
+    
+}
+
+.box h2{
+    font-size: 0.9rem;
+}
+.box h2{
+    padding: 4px 0px ;
+}
+
+    .section3 table{
+        width: 85vw;
+       
+    }
+    
+}
